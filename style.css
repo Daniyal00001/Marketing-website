@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+.navbar {
+    background-color: rgb(158, 89, 223);
+    height: 60px;
+}
+
+ul.navbar-nav {
+    margin-right: 60px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: white !important;
+
+}
+
+.logo {
+    height: 38px;
+    width: 140px;
+    margin-left: 45px;
+
+}
+
+.banner {
+    background-color: rgb(158, 89, 223);
+    color: white;
+    padding-top: 5%;
+    max-height: 31rem;
+    /* padding-bottom: 0; */
+}
+
+a.hehe {
+    color: white;
+    font-size: larger;
+}
+
+span svg {
+    width: 45px;
+    height: 30px;
+}
+
+
+
+.wave1 img {
+    width: 100%;
+    background-color: rgb(158, 89, 223);
+    box-sizing: border-box;
+
+}
+
+.service-img {
+    width: 85px;
+    margin-top: 65px;
+}
+
+.services h3 {
+    padding-top: 20px;
+}
+
+.title-text {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.title-text::before {
+    content: '';
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(158, 89, 223);
+    transform: translateY(63px);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.title-text::after {
+    content: '';
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    background-color: rgb(158, 89, 223);
+    transform: translateY(8px);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.services button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.hey {
+    margin-left: 90px;
+}
+
+.diff {
+    margin-left: 90px;
+    font-size: 1rem;
+}
+
+.image-00 img {
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+
+.about-us {
+    background-color: rgb(240, 234, 234);
+}
+
+.testimonials {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+.test img {
+    height: 70px;
+    border-radius: 30%;
+    margin-top: 20px;
+}
+
+.test {
+    border-left: 4px solid blueviolet;
+    padding-left: 15px;
+    margin-top: 75px;
+}
+
+.test p {
+    margin-top: 20px;
+}
+
+.user-details {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#social {
+    background-color: rgb(240, 234, 234);
+}
+
+.social-icons img {
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+#footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+.imgg img {
+    height: 30px;
+
+}
+
+imgg p {
+    padding: 20px;
+}
+
+.last-btn button {
+    background-color: white;
+    color: blueviolet;
+    border-radius: 25px;
+    margin-right: 10px;
+
+}
+
+.last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.last-btn input {
+    background-color: rgba(240, 241, 234);
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 0;
+
+}
+
+
+div span svg {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.contact h4 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    /* Ensures it stays on top of other content */
+
+}
+
+.imgg p {
+    margin-top: 15px;
+    font-size: small;
+}
+
+@media screen and (max-width : 1000px) {
+    .vectorimg img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .diff {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .image-00 img {
+        justify-content: center;
+
+    }
+}
+
+#navbarNav ul li :hover {
+    background-color: rgb(54, 0, 90);
+}
+
+#navbarNav ul li {
+    background-color: rgb(79, 14, 139);
+
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#navbarNav ul li {
+    padding: 0 8px;
+}
+
+.tt h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
